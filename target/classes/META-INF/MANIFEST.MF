@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: sample-mobile-authenticator
+Built-By: supunpe
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1513789762647
+Import-Package: javax.servlet;version="[2.6,3)",javax.servlet.http;ver
+ sion="[2.6,3)",org.apache.commons.lang;version="[2.6,3)",org.apache.c
+ ommons.logging;version="[1.2,2)";resolution:=optional,org.osgi.framew
+ ork;version="[1.7,2)";resolution:=optional,org.osgi.service.component
+ ;version="[1.2,2)";resolution:=optional,org.wso2.carbon.identity.appl
+ ication.authentication.framework;version="[5.7,6)";resolution:=option
+ al,org.wso2.carbon.identity.application.authentication.framework.cont
+ ext;version="[5.7,6)";resolution:=optional,org.wso2.carbon.identity.a
+ pplication.authentication.framework.exception;version="[5.7,6)";resol
+ ution:=optional,org.wso2.carbon.identity.application.authentication.f
+ ramework.model;version="[5.7,6)";resolution:=optional,org.wso2.carbon
+ .identity.application.common.model;version="[5.7,6)";resolution:=opti
+ onal,sample.inbound.mobile.authenticator;version="[1.0,2)";resolution
+ :=optional
+Service-Component: OSGI-INF/serviceComponents.xml
+Axis2Module: sample-mobile-authenticator-1.0.1-SNAPSHOT
+Tool: Bnd-1.43.0
+Export-Package: sample.inbound.mobile.authenticator;uses:="org.wso2.ca
+ rbon.identity.application.common.model,org.wso2.carbon.identity.appli
+ cation.authentication.framework.context,org.apache.commons.logging,ja
+ vax.servlet.http,org.wso2.carbon.identity.application.authentication.
+ framework.model,org.wso2.carbon.identity.application.authentication.f
+ ramework.exception,org.wso2.carbon.identity.application.authenticatio
+ n.framework,org.apache.commons.lang";version="1.0.0"
+Bundle-Version: 1.0.1.SNAPSHOT
+Bundle-Name: sample-mobile-authenticator
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_151
+
